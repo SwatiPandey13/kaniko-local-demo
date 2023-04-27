@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM ubuntu:18.04
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
